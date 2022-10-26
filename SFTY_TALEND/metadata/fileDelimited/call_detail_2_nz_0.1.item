@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection CsvOption="true" Encoding="UTF-8" EscapeChar="&quot;\&quot;&quot;" EscapeType="CSV" FieldSeparatorType="Comma" FieldSeparatorValue="&quot;,&quot;" FilePath="C:/Users/hr100/Downloads/OneDrive_1_10-25-2022/call_detail_2_nz.csv" FirstLineCaption="true" HeaderValue="1" RemoveEmptyRow="true" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" TextEnclosure="&quot;\&quot;&quot;" UseHeader="true" dataPackage="_oUOJglR4Ee2QLf8NbiD36w" name="call_detail_2_nz" xmi:id="_oUOJgVR4Ee2QLf8NbiD36w"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_oUOJgVR4Ee2QLf8NbiD36w" name="default" xmi:id="_oUOJglR4Ee2QLf8NbiD36w">
+    <ownedElement id="_gZWksFR4Ee2QLf8NbiD36w" label="metadata" xmi:id="_oUOJg1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="Date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJhFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact_Type" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJhVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact_Method" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJhlR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ANI_From" length="19" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJh1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact_End_Reason" length="26" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJiFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact_ID" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJiVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Master_Contact_ID" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJilR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Parent_Contact_ID" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJi1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact_Skill_Name" length="22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJjFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Takeover_Agent_Name" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJjVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Takeover_Contact_ID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJjlR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Active_Talk_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJj1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Skill_Time" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJkFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Unavailable_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJkVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Parked_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJklR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Postqueue_Time" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJk1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Preview_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJlFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Prequeue_Time" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJlVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Refused_Time" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJllR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Short_Abandon_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJl1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Speed_Of_Answer" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJmFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Unavailable_Time_minus_ACW" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJmVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Unavailable_Time" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJmlR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Unavailable_Codes_Time" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJm1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Working_Time" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJnFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Wait_Time" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJnVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Handle_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJnlR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Hold_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJn1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Conference_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJoFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Talk_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJoVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Outbound_Time" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJolR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Routing_Time" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJo1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Release_Time" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJpFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="System_Pending" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJpVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Talk_Time" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJplR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Column35" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJp1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Column36" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJqFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Column37" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJqVR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Column38" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJqlR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Column39" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJq1R4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Column40" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_oUOJrFR4Ee2QLf8NbiD36w" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_69d428f0-7acc-42dd-b654-e9708cf85e16"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rsFjMdfG/MDvuoMGoGpQ6jes0JHQFX3OSHnbndZUJeG7AsfVPsbssQTq30Pg2MTpBUva6RhgWaag&#13;
+JzhwFQVJAw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b3ff4e1b-8821-4da1-8559-ae32d20e9f3a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iC5oS6ZzTML4thAwQit3rDJPwe4hlWgUA8Y7DIB4MWT6mRxZG27WYEBxAn0+3MI2Nwv9FF1jHb4M&#13;
+VEKARL5I2g==</DigestValue></Reference></SignedInfo><SignatureValue>ck//g+2dm4746WKIwo308qiJDDL0E9uBJc+V5a82BNacWXSYUJdapTUjI7+qB7SeRzaf6yGV/hVZ&#13;
+s5x1FcWAs7XwKVDfWur0pHB4KfogttOc2v/RNmYtzpx+3wGaTTaOV/Sw/l7GSgtYdZ0pK6TD5EeR&#13;
+0Ums/2ZGA33d0s/pmtByEpHLouq7Fke/+JzmTVUg7pOw/Zzepp5WzmUZP8ut+9Q1kJG85iA2YrsO&#13;
+NOufaQdchUWLIX9ta+Q+ZozgeJjxMSzu7WjMTGGNf5l+JDoCXTT1Mb+2JBKim8AjnuAhbA8NyO4n&#13;
+aVhI1u0C2KkAJCiY9Bli1wN39Mu8sOU/HN1RYA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b3ff4e1b-8821-4da1-8559-ae32d20e9f3a" Target="#_69d428f0-7acc-42dd-b654-e9708cf85e16"><Timestamp>2022-10-25 15:20:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
